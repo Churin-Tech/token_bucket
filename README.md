@@ -4,14 +4,14 @@ Thread-safe (atomic) token bucket primitive(https://en.wikipedia.org/wiki/Token_
 # Usgae
 ## Download
 enter your project include dir.  
-`
+```
 git clone git@github.com:Churin-Tech/token_bucket.git
-`
+```
 or use Cmake `Declare`.
 ---
 
 ## Use
-`
+```
 #include <thread>
 #include <iostream>
 
@@ -32,6 +32,6 @@ int main(int argc, char *argv[]) {
         });
     }
 }
-`
+```
 
 ## Performance
