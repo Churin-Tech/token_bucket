@@ -21,7 +21,6 @@ or use Cmake `Declare`.
 using namespace TB;
 
 int main(int argc, char *argv[]) {
-    TokenBucket tb(100);
     auto tb_ptr = std::make_shared<TokenBucket>(100);
     for (size_t idx; idx < 10; idx++) {
         std::thread t([&idx, &tb_ptr](){
